@@ -1,59 +1,60 @@
-{
-    "list": {
-      "breakfast": [
-        {
-          "name": "Pancakes",
-          "cost": 5.99
-        },
-        {
-          "name": "Omelette",
-          "cost": 6.49
-        },
-        {
-          "name": "French Toast",
-          "cost": 4.99
-        },
-        {
-          "name": "Cereal",
-          "cost": 3.99
+[
+    {
+        "list": {
+            "breakfast": [
+                {
+                    "name": "Pancakes",
+                    "cost": 5.99
+                },
+                {
+                    "name": "Omelette",
+                    "cost": 6.49
+                },
+                {
+                    "name": "French Toast",
+                    "cost": 4.99
+                },
+                {
+                    "name": "Cereal",
+                    "cost": 3.99
+                }
+            ],
+            "maincourse": [
+                {
+                    "name": "Spaghetti Bolognese",
+                    "cost": 12.99
+                },
+                {
+                    "name": "Chicken Alfredo",
+                    "cost": 14.49
+                },
+                {
+                    "name": "Beef Steak",
+                    "cost": 18.99
+                },
+                {
+                    "name": "Vegetable Stir-Fry",
+                    "cost": 10.99
+                }
+            ],
+            "specials": [
+                {
+                    "name": "Chef's Special Burger",
+                    "cost": 9.99
+                },
+                {
+                    "name": "Seafood Platter",
+                    "cost": 22.99
+                },
+                {
+                    "name": "Vegetarian Lasagna",
+                    "cost": 13.99
+                },
+                {
+                    "name": "Grilled Salmon",
+                    "cost": 16.99
+                }
+            ]
         }
-      ],
-      "maincourse": [
-        {
-          "name": "Spaghetti Bolognese",
-          "cost": 12.99
-        },
-        {
-          "name": "Chicken Alfredo",
-          "cost": 14.49
-        },
-        {
-          "name": "Beef Steak",
-          "cost": 18.99
-        },
-        {
-          "name": "Vegetable Stir-Fry",
-          "cost": 10.99
-        }
-      ],
-      "specials": [
-        {
-          "name": "Chef's Special Burger",
-          "cost": 9.99
-        },
-        {
-          "name": "Seafood Platter",
-          "cost": 22.99
-        },
-        {
-          "name": "Vegetarian Lasagna",
-          "cost": 13.99
-        },
-        {
-          "name": "Grilled Salmon",
-          "cost": 16.99
-        }
-      ]
     }
-  }
-  
+]
