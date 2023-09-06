@@ -18,7 +18,9 @@ const List = (props)=>{
         <div className="col-4 bg-primary"><p className="bg-primary" style={{ margin: 'auto', padding: '10px', color: 'white', fontSize: '110%' }}>{value.name}</p></div>
         <div className="col-2 bg-primary"><p className="bg-primary" style={{ margin: 'auto', padding: '10px', color: 'white', fontSize: '110%' }}></p></div>
         <div className="col-3 bg-primary"><p className="bg-primary" style={{ margin: 'auto', padding: '10px', color: 'white', fontSize: '110%' }}>₹{value.cost}</p></div>
-        <div className="col-3 bg-primary"><button className="btn-light" style={{ margin: 'auto', padding: '4px', borderRadius: '10px', fontSize: '110%',width:'100%' }}>Add +</button></div>
+        <div className="col-1 bg-primary"><button className="btn btn-light" style={{ margin: 'auto', padding: '4px', borderRadius: '10px', fontSize: '110%',width:'100%' }}>-</button></div>
+        <div className="col-1 bg-primary"><p className="btn-light" style={{ margin: 'auto', padding: '4px', borderRadius: '10px', fontSize: '110%',width:'100%' }}>0</p></div>
+        <div className="col-1 bg-primary"><button className="btn btn-light" style={{ margin: 'auto', padding: '4px', borderRadius: '10px', fontSize: '110%',width:'100%' }}>+</button></div>
     </div>
     ))}
     </div>
