@@ -1,16 +1,14 @@
 import './App.css';
-import Main from './OrderFoodModule/Main';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import Options from './components/options/Options';
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Main />} />
+          <Route path='/order' element={<Options />} />
         </Routes>
       </BrowserRouter>
-      <Main />
     </div>
   );
 }
