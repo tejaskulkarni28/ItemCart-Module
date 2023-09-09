@@ -1,14 +1,20 @@
 import React, { useState } from "react";
 import List from "../Lists/List";
+import { useNavigate } from "react-router-dom";
 
 const Options = () => {
+  const navigate = useNavigate()
   const types = {
     type1: "breakfast",
     type2: "maincourse",
     type3: "specials"
   };
 
-  const [option, setOption] = useState([]);
+  // breakfast is the default one
+  const [option, setOption] = useState(["breakfast"]);
+  const handleNext = ()=>{
+    navigate('/order/cart')
+  }
 
   return (
     <div>
@@ -28,6 +34,7 @@ const Options = () => {
         </div>
       </div>
       <List type={option} />
+      <button onClick={()=>{handleNext()}}>Next</button>
     </div>
   );
 };

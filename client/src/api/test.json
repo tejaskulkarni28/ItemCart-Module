@@ -1,60 +1,85 @@
 [
     {
-        "list": {
-            "breakfast": [
-                {
-                    "name": "Pancakes",
-                    "cost": 5.99
-                },
-                {
-                    "name": "Omelette",
-                    "cost": 6.49
-                },
-                {
-                    "name": "French Toast",
-                    "cost": 4.99
-                },
-                {
-                    "name": "Cereal",
-                    "cost": 3.99
-                }
-            ],
-            "maincourse": [
-                {
-                    "name": "Spaghetti Bolognese",
-                    "cost": 12.99
-                },
-                {
-                    "name": "Chicken Alfredo",
-                    "cost": 14.49
-                },
-                {
-                    "name": "Beef Steak",
-                    "cost": 18.99
-                },
-                {
-                    "name": "Vegetable Stir-Fry",
-                    "cost": 10.99
-                }
-            ],
-            "specials": [
-                {
-                    "name": "Chef's Special Burger",
-                    "cost": 9.99
-                },
-                {
-                    "name": "Seafood Platter",
-                    "cost": 22.99
-                },
-                {
-                    "name": "Vegetarian Lasagna",
-                    "cost": 13.99
-                },
-                {
-                    "name": "Grilled Salmon",
-                    "cost": 16.99
-                }
-            ]
-        }
+      "list": {
+        "breakfast": [
+          {
+            "id": "100",
+            "name": "Pancakes",
+            "cost": 5.99,
+            "count": 0
+          },
+          {
+            "id": "101",
+            "name": "Omelette",
+            "cost": 6.49,
+            "count": 0
+          },
+          {
+            "id": "102",
+            "name": "French Toast",
+            "cost": 4.99,
+            "count": 0
+          },
+          {
+            "id": "103",
+            "name": "Cereal",
+            "cost": 3.99,
+            "count": 0
+          }
+        ],
+        "maincourse": [
+          {
+            "id": "104",
+            "name": "Spaghetti Bolognese",
+            "cost": 12.99,
+            "count": 0
+          },
+          {
+            "id": "105",
+            "name": "Chicken Alfredo",
+            "cost": 14.49,
+            "count": 0
+          },
+          {
+            "id": "106",
+            "name": "Beef Steak",
+            "cost": 18.99,
+            "count": 0
+          },
+          {
+            "id": "107",
+            "name": "Vegetable Stir-Fry",
+            "cost": 10.99,
+            "count": 0
+          }
+        ],
+        "specials": [
+          {
+            "id": "108",
+            "name": "Chef's Special Burger",
+            "cost": 9.99,
+            "count": 0
+          },
+          {
+            "id": "109",
+            "name": "Seafood Platter",
+            "cost": 22.99,
+            "count": 0
+          },
+          {
+            "id": "110",
+            "name": "Vegetarian Lasagna",
+            "cost": 13.99,
+            "count": 0
+          },
+          {
+            "id": "111",
+            "name": "Grilled Salmon",
+            "cost": 16.99,
+            "count": 0
+          }
+        ]
+      }
     }
-]
+  ]
+  
