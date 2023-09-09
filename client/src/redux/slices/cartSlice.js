@@ -15,18 +15,32 @@ export const cartSlice = createSlice({
                 item.count++;
             } else {
                 // If the item is not in the cart, add it
-                state.items.push({ id: action.payload.id, count: 1 });
+                state.items.push({ id: action.payload.id, name:action.payload.name, count: 1 });
             }
         },
         decrementItem: (state, action) => {
             const item = state.items.find((item) => item.id === action.payload.id);
-            if(item.count === 0){
-                state.items = state.items.filter((i) => i.id !== action.payload.id)
-            }
-            else if(item && item.count > 0) {
-              item.count--;
+            
+            if (item) {
+                // Decrement the item's count
+                item.count--;
+        
+                // If the count reaches 0, remove the item from the cart
+                if (item.count === 0) {
+                    state.items = state.items.filter((i) => i.id !== action.payload.id);
+                }
             }
         }
+        
+        // decrementItem: (state, action) => {
+        //     const item = state.items.find((item) => item.id === action.payload.id);
+        //     if(item.count === 0){
+        //         state.items = state.items.filter((i) => i.id !== action.payload.id)
+        //     }
+        //     else if(item && item.count > 0) {
+        //       item.count--;
+        //     }
+        // }
     }
 })
 

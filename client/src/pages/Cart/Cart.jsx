@@ -8,7 +8,7 @@ const Cart = ()=>{
     const [getCartItems, setCartItems] = useState([])
 
     useEffect(()=>{
-        setCartItems(cartItems)
+        setCartItems([...cartItems])
         console.log(cartItems)
     },[cartItems])
 
@@ -21,12 +21,17 @@ const Cart = ()=>{
             <div className="content">
             <h1>Your Cart</h1>
             {
-                getCartItems.map((value, index)=>(
+                getCartItems.length === 0 ? (
+                    <p>Your cart is empty!</p>
+                ):(
+                    getCartItems.map((value, index)=>(
                     <div key={index}>
                     <p>{value.count}</p>
+                    <p>{value.name}</p>
                     <p>{value.id}</p>
                     </div>
                 ))
+                )
             }
             <button onClick={()=>{handlePrevious()}}>Previous</button>
             </div>
