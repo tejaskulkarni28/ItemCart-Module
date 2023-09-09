@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tejaskulkarni28/ItemCart-Module/static/css/main.281677ac.css",
-    "main.js": "/tejaskulkarni28/ItemCart-Module/static/js/main.c6310f51.js",
+    "main.css": "/tejaskulkarni28/ItemCart-Module/static/css/main.1566e1d9.css",
+    "main.js": "/tejaskulkarni28/ItemCart-Module/static/js/main.302901c6.js",
     "static/js/787.c4e7f8f9.chunk.js": "/tejaskulkarni28/ItemCart-Module/static/js/787.c4e7f8f9.chunk.js",
     "index.html": "/tejaskulkarni28/ItemCart-Module/index.html",
-    "main.281677ac.css.map": "/tejaskulkarni28/ItemCart-Module/static/css/main.281677ac.css.map",
-    "main.c6310f51.js.map": "/tejaskulkarni28/ItemCart-Module/static/js/main.c6310f51.js.map",
+    "main.1566e1d9.css.map": "/tejaskulkarni28/ItemCart-Module/static/css/main.1566e1d9.css.map",
+    "main.302901c6.js.map": "/tejaskulkarni28/ItemCart-Module/static/js/main.302901c6.js.map",
     "787.c4e7f8f9.chunk.js.map": "/tejaskulkarni28/ItemCart-Module/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.281677ac.css",
-    "static/js/main.c6310f51.js"
+    "static/css/main.1566e1d9.css",
+    "static/js/main.302901c6.js"
   ]
 }
